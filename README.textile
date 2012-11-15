@@ -49,3 +49,8 @@ These will override tags defined in @project/www/index.html@, @project/www/js/ap
 Additionally, the more specific templates can have a "project" directory which will be @rsync@-ed over the project so that you can add/replace files.
 
 The more specific templates can also specific a "project.json" file for advanced usage. The only supported attribute is "inherits" which specifies another template name. Mortar will sync in that template before syncing the current one, letting you only add bits and pieces to current templates.
+
+
+h2.  Marketplace Apps Template Documentation
+
+https://marketplace.mozilla.org/developers/docs/templates
